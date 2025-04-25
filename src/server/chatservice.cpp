@@ -32,6 +32,8 @@ ChatService::ChatService()
     _msghandlermap.insert({ADD_GROUP_MSG, std::bind(&ChatService::addGroup, this, _1, _2, _3)});
 
     _msghandlermap.insert({GROUP_CHAT_MSG, std::bind(&ChatService::groupChat, this, _1, _2, _3)});
+
+    _msghandlermap.insert({LOGINOUT_MSG, std::bind(&ChatService::loginout, this, _1, _2, _3)});
 }
 
 // 获取消息对应的处理器
@@ -321,4 +323,24 @@ void ChatService::groupChat(const TcpConnectionPtr &conn, json &js, Timestamp ti
             _offlineMsg.insert(id, js.dump());
         }
     }
+}
+
+// 处理注销业务
+void ChatService::loginout(const TcpConnectionPtr &conn, json &js, Timestamp time)
+{
+    int userid = js["id"].get<int>();
+    {
+        lock_guard<mutex> lock(_connMutex);
+        auto it = _userConnMap.find(userid);
+        if(it != _userConnMap.end())
+        {
+            _userConnMap.erase(it);
+        }
+    }
+
+    // 更新用户状态
+    User user(userid, "","", "offline");
+    // user.setId(userid);
+    // user.setState("offline");
+    _usermodel.updateState(user); // 仅需要id和状态, 剩下的具体 由函数在数据库完成 
 }

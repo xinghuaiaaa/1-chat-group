@@ -60,6 +60,9 @@ public:
     // 处理群组聊天业务
     void groupChat(const TcpConnectionPtr &conn, json &js, Timestamp time);
 
+    // 处理注销业务
+    void loginout(const TcpConnectionPtr &conn, json &js, Timestamp time);
+
 private:
     // 单例模式----构造函数私有化,并写一个惟一的实例
     ChatService(); // #5

@@ -33,6 +33,8 @@ void readTaskHandler(int clientfd);
 string getCurrentTime();
 // 主聊天页面程序
 void mainMenu(int clientfd);
+// 控制聊天页面--注销需要退出聊天页面
+bool isMainMenuRunning = false;
 
 // 聊天客户端程序实现, main线程用作发送线程, 子线程用作接受线程
 
@@ -231,11 +233,18 @@ int main(int argc, char **argv)
                             cout << "offlinemsg list is empty" << endl;
                         }
 
-                        // 登录成功, 启动接收线程
-                        std::thread readTask(readTaskHandler, clientfd); // thread 支持跨平台
-                        readTask.detach();                               // 分离线程, 让其独立运行, 不阻塞主线程
+                        // 登录成功, 启动接收线程----只要客户端 不完全退出, 就只启动一次!
+                        static int threadnum = 0;
+                        if (threadnum == 0)
+                        {
+                            std::thread readTask(readTaskHandler, clientfd); // thread 支持跨平台
+                            readTask.detach();
+                        }
+
+                        // 分离线程, 让其独立运行, 不阻塞主线程
 
                         // 主线程继续执行, 进入聊天菜单页面
+                        isMainMenuRunning = true;
                         mainMenu(clientfd);
                     }
                     // else if(response["errno"] == 1)
@@ -328,7 +337,6 @@ int main(int argc, char **argv)
         }
         }
     }
-    return 0;
 }
 
 void showCurrentUserInfo()
@@ -448,7 +456,8 @@ unordered_map<string, function<void(int, string)>> commandHandlerMap = {
 void mainMenu(int clientfd)
 {
     help();
-    for (;;)
+    // for (;;)
+    while (isMainMenuRunning)
     {
         // 截取输入的 格式
         char buffer[1024] = {0};        // 用户输入的命令
@@ -614,20 +623,31 @@ void groupchat(int clientfd, string msg)
 // quit函数
 void quit(int clientfd, string msg)
 {
-    cout << "exit system" << endl;
-    close(clientfd);
-    exit(0);
+
+    json js;
+    js["msgid"] = LOGINOUT_MSG;       // 注销消息
+    js["id"] = g_currentUser.getId(); // 当前登录用户id
+
+    string request = js.dump();                                                // json转字符串  序列化
+    int len = send(clientfd, request.c_str(), strlen(request.c_str()) + 1, 0); // 发送数据
+    if (len < 0)
+    {
+        cerr << "send quit msg error: " << request << endl;
+    }
+    isMainMenuRunning = false; // 退出聊天页面
+    // close(clientfd);  放在服务端处理
+    // exit(0);
 }
 
 // 时间函数
 string getCurrentTime()
 {
     // 获取当前时间
-    time_t now = time(0); // 获取当前时间
-    tm *ltm = localtime(&now); // 转换为本地时间
-    char buffer[80]; // 存储时间字符串
+    time_t now = time(0);                                       // 获取当前时间
+    tm *ltm = localtime(&now);                                  // 转换为本地时间
+    char buffer[80];                                            // 存储时间字符串
     strftime(buffer, sizeof(buffer), "%Y-%m-%d %H:%M:%S", ltm); // 格式化时间
-    string timeStr(buffer); // 转成string类型
+    string timeStr(buffer);                                     // 转成string类型
     // cout << "current time: " << timeStr << endl; // 测试用
     return timeStr; // 返回时间字符串
     // return string(); //

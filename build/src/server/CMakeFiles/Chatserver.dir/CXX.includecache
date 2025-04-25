@@ -34,12 +34,6 @@ friendmodel.hpp
 groupmodel.hpp
 ../include/server/groupmodel.hpp
 
-../include/server/db/db.h
-mysql/mysql.h
--
-string
--
-
 ../include/server/model/friendmodel.hpp
 user.hpp
 ../include/server/model/user.hpp
@@ -498,12 +492,6 @@ vector
 iostream
 -
 
-/root/hzhdata/2025-bigproject/1-chat-group/src/server/db/db.cpp
-db.h
-/root/hzhdata/2025-bigproject/1-chat-group/src/server/db/db.h
-muduo/base/Logging.h
--
-
 /root/hzhdata/2025-bigproject/1-chat-group/src/server/main.cpp
 chatserver.hpp
 /root/hzhdata/2025-bigproject/1-chat-group/src/server/chatserver.hpp
@@ -513,32 +501,4 @@ signal.h
 -
 chatservice.hpp
 /root/hzhdata/2025-bigproject/1-chat-group/src/server/chatservice.hpp
-
-/root/hzhdata/2025-bigproject/1-chat-group/src/server/model/friendmodel.cpp
-friendmodel.hpp
-/root/hzhdata/2025-bigproject/1-chat-group/src/server/model/friendmodel.hpp
-db.h
-/root/hzhdata/2025-bigproject/1-chat-group/src/server/model/db.h
-
-/root/hzhdata/2025-bigproject/1-chat-group/src/server/model/groupmodel.cpp
-groupmodel.hpp
-/root/hzhdata/2025-bigproject/1-chat-group/src/server/model/groupmodel.hpp
-db.h
--
-
-/root/hzhdata/2025-bigproject/1-chat-group/src/server/model/offlinemessagemodel.cpp
-offlinemessagemodel.hpp
-/root/hzhdata/2025-bigproject/1-chat-group/src/server/model/offlinemessagemodel.hpp
-db.h
-/root/hzhdata/2025-bigproject/1-chat-group/src/server/model/db.h
-iostream
--
-
-/root/hzhdata/2025-bigproject/1-chat-group/src/server/model/usermodel.cpp
-usermodel.hpp
-/root/hzhdata/2025-bigproject/1-chat-group/src/server/model/usermodel.hpp
-db.h
-/root/hzhdata/2025-bigproject/1-chat-group/src/server/model/db.h
-iostream
--
 
