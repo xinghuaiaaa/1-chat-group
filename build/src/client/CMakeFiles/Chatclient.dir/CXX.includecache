@@ -422,7 +422,7 @@ any
 string_view
 -
 
-/root/hzhdata/2025-bigproject/1-chat-web/src/client/main.cpp
+/root/hzhdata/2025-bigproject/1-chat-group/src/client/main.cpp
 iostream
 -
 thread
@@ -444,11 +444,11 @@ netinet/in.h
 arpa/inet.h
 -
 json.hpp
-/root/hzhdata/2025-bigproject/1-chat-web/src/client/json.hpp
+/root/hzhdata/2025-bigproject/1-chat-group/src/client/json.hpp
 user.hpp
-/root/hzhdata/2025-bigproject/1-chat-web/src/client/user.hpp
+/root/hzhdata/2025-bigproject/1-chat-group/src/client/user.hpp
 public.hpp
-/root/hzhdata/2025-bigproject/1-chat-web/src/client/public.hpp
+/root/hzhdata/2025-bigproject/1-chat-group/src/client/public.hpp
 group.hpp
-/root/hzhdata/2025-bigproject/1-chat-web/src/client/group.hpp
+/root/hzhdata/2025-bigproject/1-chat-group/src/client/group.hpp
 

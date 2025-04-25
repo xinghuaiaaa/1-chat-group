@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/hzhdata/2025-bigproject/1-chat-web
+CMAKE_SOURCE_DIR = /root/hzhdata/2025-bigproject/1-chat-group
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/hzhdata/2025-bigproject/1-chat-web/build
+CMAKE_BINARY_DIR = /root/hzhdata/2025-bigproject/1-chat-group/build
 
 # Include any dependencies generated for this target.
 include src/server/CMakeFiles/Chatserver.dir/depend.make
@@ -59,107 +59,107 @@ include src/server/CMakeFiles/Chatserver.dir/flags.make
 
 src/server/CMakeFiles/Chatserver.dir/chatserver.cpp.o: src/server/CMakeFiles/Chatserver.dir/flags.make
 src/server/CMakeFiles/Chatserver.dir/chatserver.cpp.o: ../src/server/chatserver.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/hzhdata/2025-bigproject/1-chat-web/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/server/CMakeFiles/Chatserver.dir/chatserver.cpp.o"
-	cd /root/hzhdata/2025-bigproject/1-chat-web/build/src/server && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Chatserver.dir/chatserver.cpp.o -c /root/hzhdata/2025-bigproject/1-chat-web/src/server/chatserver.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/hzhdata/2025-bigproject/1-chat-group/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/server/CMakeFiles/Chatserver.dir/chatserver.cpp.o"
+	cd /root/hzhdata/2025-bigproject/1-chat-group/build/src/server && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Chatserver.dir/chatserver.cpp.o -c /root/hzhdata/2025-bigproject/1-chat-group/src/server/chatserver.cpp
 
 src/server/CMakeFiles/Chatserver.dir/chatserver.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Chatserver.dir/chatserver.cpp.i"
-	cd /root/hzhdata/2025-bigproject/1-chat-web/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/hzhdata/2025-bigproject/1-chat-web/src/server/chatserver.cpp > CMakeFiles/Chatserver.dir/chatserver.cpp.i
+	cd /root/hzhdata/2025-bigproject/1-chat-group/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/hzhdata/2025-bigproject/1-chat-group/src/server/chatserver.cpp > CMakeFiles/Chatserver.dir/chatserver.cpp.i
 
 src/server/CMakeFiles/Chatserver.dir/chatserver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Chatserver.dir/chatserver.cpp.s"
-	cd /root/hzhdata/2025-bigproject/1-chat-web/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/hzhdata/2025-bigproject/1-chat-web/src/server/chatserver.cpp -o CMakeFiles/Chatserver.dir/chatserver.cpp.s
+	cd /root/hzhdata/2025-bigproject/1-chat-group/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/hzhdata/2025-bigproject/1-chat-group/src/server/chatserver.cpp -o CMakeFiles/Chatserver.dir/chatserver.cpp.s
 
 src/server/CMakeFiles/Chatserver.dir/chatservice.cpp.o: src/server/CMakeFiles/Chatserver.dir/flags.make
 src/server/CMakeFiles/Chatserver.dir/chatservice.cpp.o: ../src/server/chatservice.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/hzhdata/2025-bigproject/1-chat-web/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/server/CMakeFiles/Chatserver.dir/chatservice.cpp.o"
-	cd /root/hzhdata/2025-bigproject/1-chat-web/build/src/server && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Chatserver.dir/chatservice.cpp.o -c /root/hzhdata/2025-bigproject/1-chat-web/src/server/chatservice.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/hzhdata/2025-bigproject/1-chat-group/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/server/CMakeFiles/Chatserver.dir/chatservice.cpp.o"
+	cd /root/hzhdata/2025-bigproject/1-chat-group/build/src/server && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Chatserver.dir/chatservice.cpp.o -c /root/hzhdata/2025-bigproject/1-chat-group/src/server/chatservice.cpp
 
 src/server/CMakeFiles/Chatserver.dir/chatservice.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Chatserver.dir/chatservice.cpp.i"
-	cd /root/hzhdata/2025-bigproject/1-chat-web/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/hzhdata/2025-bigproject/1-chat-web/src/server/chatservice.cpp > CMakeFiles/Chatserver.dir/chatservice.cpp.i
+	cd /root/hzhdata/2025-bigproject/1-chat-group/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/hzhdata/2025-bigproject/1-chat-group/src/server/chatservice.cpp > CMakeFiles/Chatserver.dir/chatservice.cpp.i
 
 src/server/CMakeFiles/Chatserver.dir/chatservice.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Chatserver.dir/chatservice.cpp.s"
-	cd /root/hzhdata/2025-bigproject/1-chat-web/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/hzhdata/2025-bigproject/1-chat-web/src/server/chatservice.cpp -o CMakeFiles/Chatserver.dir/chatservice.cpp.s
+	cd /root/hzhdata/2025-bigproject/1-chat-group/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/hzhdata/2025-bigproject/1-chat-group/src/server/chatservice.cpp -o CMakeFiles/Chatserver.dir/chatservice.cpp.s
 
 src/server/CMakeFiles/Chatserver.dir/main.cpp.o: src/server/CMakeFiles/Chatserver.dir/flags.make
 src/server/CMakeFiles/Chatserver.dir/main.cpp.o: ../src/server/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/hzhdata/2025-bigproject/1-chat-web/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/server/CMakeFiles/Chatserver.dir/main.cpp.o"
-	cd /root/hzhdata/2025-bigproject/1-chat-web/build/src/server && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Chatserver.dir/main.cpp.o -c /root/hzhdata/2025-bigproject/1-chat-web/src/server/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/hzhdata/2025-bigproject/1-chat-group/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/server/CMakeFiles/Chatserver.dir/main.cpp.o"
+	cd /root/hzhdata/2025-bigproject/1-chat-group/build/src/server && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Chatserver.dir/main.cpp.o -c /root/hzhdata/2025-bigproject/1-chat-group/src/server/main.cpp
 
 src/server/CMakeFiles/Chatserver.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Chatserver.dir/main.cpp.i"
-	cd /root/hzhdata/2025-bigproject/1-chat-web/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/hzhdata/2025-bigproject/1-chat-web/src/server/main.cpp > CMakeFiles/Chatserver.dir/main.cpp.i
+	cd /root/hzhdata/2025-bigproject/1-chat-group/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/hzhdata/2025-bigproject/1-chat-group/src/server/main.cpp > CMakeFiles/Chatserver.dir/main.cpp.i
 
 src/server/CMakeFiles/Chatserver.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Chatserver.dir/main.cpp.s"
-	cd /root/hzhdata/2025-bigproject/1-chat-web/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/hzhdata/2025-bigproject/1-chat-web/src/server/main.cpp -o CMakeFiles/Chatserver.dir/main.cpp.s
+	cd /root/hzhdata/2025-bigproject/1-chat-group/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/hzhdata/2025-bigproject/1-chat-group/src/server/main.cpp -o CMakeFiles/Chatserver.dir/main.cpp.s
 
 src/server/CMakeFiles/Chatserver.dir/db/db.cpp.o: src/server/CMakeFiles/Chatserver.dir/flags.make
 src/server/CMakeFiles/Chatserver.dir/db/db.cpp.o: ../src/server/db/db.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/hzhdata/2025-bigproject/1-chat-web/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/server/CMakeFiles/Chatserver.dir/db/db.cpp.o"
-	cd /root/hzhdata/2025-bigproject/1-chat-web/build/src/server && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Chatserver.dir/db/db.cpp.o -c /root/hzhdata/2025-bigproject/1-chat-web/src/server/db/db.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/hzhdata/2025-bigproject/1-chat-group/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/server/CMakeFiles/Chatserver.dir/db/db.cpp.o"
+	cd /root/hzhdata/2025-bigproject/1-chat-group/build/src/server && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Chatserver.dir/db/db.cpp.o -c /root/hzhdata/2025-bigproject/1-chat-group/src/server/db/db.cpp
 
 src/server/CMakeFiles/Chatserver.dir/db/db.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Chatserver.dir/db/db.cpp.i"
-	cd /root/hzhdata/2025-bigproject/1-chat-web/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/hzhdata/2025-bigproject/1-chat-web/src/server/db/db.cpp > CMakeFiles/Chatserver.dir/db/db.cpp.i
+	cd /root/hzhdata/2025-bigproject/1-chat-group/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/hzhdata/2025-bigproject/1-chat-group/src/server/db/db.cpp > CMakeFiles/Chatserver.dir/db/db.cpp.i
 
 src/server/CMakeFiles/Chatserver.dir/db/db.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Chatserver.dir/db/db.cpp.s"
-	cd /root/hzhdata/2025-bigproject/1-chat-web/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/hzhdata/2025-bigproject/1-chat-web/src/server/db/db.cpp -o CMakeFiles/Chatserver.dir/db/db.cpp.s
+	cd /root/hzhdata/2025-bigproject/1-chat-group/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/hzhdata/2025-bigproject/1-chat-group/src/server/db/db.cpp -o CMakeFiles/Chatserver.dir/db/db.cpp.s
 
 src/server/CMakeFiles/Chatserver.dir/model/friendmodel.cpp.o: src/server/CMakeFiles/Chatserver.dir/flags.make
 src/server/CMakeFiles/Chatserver.dir/model/friendmodel.cpp.o: ../src/server/model/friendmodel.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/hzhdata/2025-bigproject/1-chat-web/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/server/CMakeFiles/Chatserver.dir/model/friendmodel.cpp.o"
-	cd /root/hzhdata/2025-bigproject/1-chat-web/build/src/server && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Chatserver.dir/model/friendmodel.cpp.o -c /root/hzhdata/2025-bigproject/1-chat-web/src/server/model/friendmodel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/hzhdata/2025-bigproject/1-chat-group/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/server/CMakeFiles/Chatserver.dir/model/friendmodel.cpp.o"
+	cd /root/hzhdata/2025-bigproject/1-chat-group/build/src/server && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Chatserver.dir/model/friendmodel.cpp.o -c /root/hzhdata/2025-bigproject/1-chat-group/src/server/model/friendmodel.cpp
 
 src/server/CMakeFiles/Chatserver.dir/model/friendmodel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Chatserver.dir/model/friendmodel.cpp.i"
-	cd /root/hzhdata/2025-bigproject/1-chat-web/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/hzhdata/2025-bigproject/1-chat-web/src/server/model/friendmodel.cpp > CMakeFiles/Chatserver.dir/model/friendmodel.cpp.i
+	cd /root/hzhdata/2025-bigproject/1-chat-group/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/hzhdata/2025-bigproject/1-chat-group/src/server/model/friendmodel.cpp > CMakeFiles/Chatserver.dir/model/friendmodel.cpp.i
 
 src/server/CMakeFiles/Chatserver.dir/model/friendmodel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Chatserver.dir/model/friendmodel.cpp.s"
-	cd /root/hzhdata/2025-bigproject/1-chat-web/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/hzhdata/2025-bigproject/1-chat-web/src/server/model/friendmodel.cpp -o CMakeFiles/Chatserver.dir/model/friendmodel.cpp.s
+	cd /root/hzhdata/2025-bigproject/1-chat-group/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/hzhdata/2025-bigproject/1-chat-group/src/server/model/friendmodel.cpp -o CMakeFiles/Chatserver.dir/model/friendmodel.cpp.s
 
 src/server/CMakeFiles/Chatserver.dir/model/groupmodel.cpp.o: src/server/CMakeFiles/Chatserver.dir/flags.make
 src/server/CMakeFiles/Chatserver.dir/model/groupmodel.cpp.o: ../src/server/model/groupmodel.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/hzhdata/2025-bigproject/1-chat-web/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/server/CMakeFiles/Chatserver.dir/model/groupmodel.cpp.o"
-	cd /root/hzhdata/2025-bigproject/1-chat-web/build/src/server && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Chatserver.dir/model/groupmodel.cpp.o -c /root/hzhdata/2025-bigproject/1-chat-web/src/server/model/groupmodel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/hzhdata/2025-bigproject/1-chat-group/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/server/CMakeFiles/Chatserver.dir/model/groupmodel.cpp.o"
+	cd /root/hzhdata/2025-bigproject/1-chat-group/build/src/server && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Chatserver.dir/model/groupmodel.cpp.o -c /root/hzhdata/2025-bigproject/1-chat-group/src/server/model/groupmodel.cpp
 
 src/server/CMakeFiles/Chatserver.dir/model/groupmodel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Chatserver.dir/model/groupmodel.cpp.i"
-	cd /root/hzhdata/2025-bigproject/1-chat-web/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/hzhdata/2025-bigproject/1-chat-web/src/server/model/groupmodel.cpp > CMakeFiles/Chatserver.dir/model/groupmodel.cpp.i
+	cd /root/hzhdata/2025-bigproject/1-chat-group/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/hzhdata/2025-bigproject/1-chat-group/src/server/model/groupmodel.cpp > CMakeFiles/Chatserver.dir/model/groupmodel.cpp.i
 
 src/server/CMakeFiles/Chatserver.dir/model/groupmodel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Chatserver.dir/model/groupmodel.cpp.s"
-	cd /root/hzhdata/2025-bigproject/1-chat-web/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/hzhdata/2025-bigproject/1-chat-web/src/server/model/groupmodel.cpp -o CMakeFiles/Chatserver.dir/model/groupmodel.cpp.s
+	cd /root/hzhdata/2025-bigproject/1-chat-group/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/hzhdata/2025-bigproject/1-chat-group/src/server/model/groupmodel.cpp -o CMakeFiles/Chatserver.dir/model/groupmodel.cpp.s
 
 src/server/CMakeFiles/Chatserver.dir/model/offlinemessagemodel.cpp.o: src/server/CMakeFiles/Chatserver.dir/flags.make
 src/server/CMakeFiles/Chatserver.dir/model/offlinemessagemodel.cpp.o: ../src/server/model/offlinemessagemodel.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/hzhdata/2025-bigproject/1-chat-web/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/server/CMakeFiles/Chatserver.dir/model/offlinemessagemodel.cpp.o"
-	cd /root/hzhdata/2025-bigproject/1-chat-web/build/src/server && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Chatserver.dir/model/offlinemessagemodel.cpp.o -c /root/hzhdata/2025-bigproject/1-chat-web/src/server/model/offlinemessagemodel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/hzhdata/2025-bigproject/1-chat-group/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/server/CMakeFiles/Chatserver.dir/model/offlinemessagemodel.cpp.o"
+	cd /root/hzhdata/2025-bigproject/1-chat-group/build/src/server && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Chatserver.dir/model/offlinemessagemodel.cpp.o -c /root/hzhdata/2025-bigproject/1-chat-group/src/server/model/offlinemessagemodel.cpp
 
 src/server/CMakeFiles/Chatserver.dir/model/offlinemessagemodel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Chatserver.dir/model/offlinemessagemodel.cpp.i"
-	cd /root/hzhdata/2025-bigproject/1-chat-web/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/hzhdata/2025-bigproject/1-chat-web/src/server/model/offlinemessagemodel.cpp > CMakeFiles/Chatserver.dir/model/offlinemessagemodel.cpp.i
+	cd /root/hzhdata/2025-bigproject/1-chat-group/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/hzhdata/2025-bigproject/1-chat-group/src/server/model/offlinemessagemodel.cpp > CMakeFiles/Chatserver.dir/model/offlinemessagemodel.cpp.i
 
 src/server/CMakeFiles/Chatserver.dir/model/offlinemessagemodel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Chatserver.dir/model/offlinemessagemodel.cpp.s"
-	cd /root/hzhdata/2025-bigproject/1-chat-web/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/hzhdata/2025-bigproject/1-chat-web/src/server/model/offlinemessagemodel.cpp -o CMakeFiles/Chatserver.dir/model/offlinemessagemodel.cpp.s
+	cd /root/hzhdata/2025-bigproject/1-chat-group/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/hzhdata/2025-bigproject/1-chat-group/src/server/model/offlinemessagemodel.cpp -o CMakeFiles/Chatserver.dir/model/offlinemessagemodel.cpp.s
 
 src/server/CMakeFiles/Chatserver.dir/model/usermodel.cpp.o: src/server/CMakeFiles/Chatserver.dir/flags.make
 src/server/CMakeFiles/Chatserver.dir/model/usermodel.cpp.o: ../src/server/model/usermodel.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/hzhdata/2025-bigproject/1-chat-web/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object src/server/CMakeFiles/Chatserver.dir/model/usermodel.cpp.o"
-	cd /root/hzhdata/2025-bigproject/1-chat-web/build/src/server && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Chatserver.dir/model/usermodel.cpp.o -c /root/hzhdata/2025-bigproject/1-chat-web/src/server/model/usermodel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/hzhdata/2025-bigproject/1-chat-group/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object src/server/CMakeFiles/Chatserver.dir/model/usermodel.cpp.o"
+	cd /root/hzhdata/2025-bigproject/1-chat-group/build/src/server && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Chatserver.dir/model/usermodel.cpp.o -c /root/hzhdata/2025-bigproject/1-chat-group/src/server/model/usermodel.cpp
 
 src/server/CMakeFiles/Chatserver.dir/model/usermodel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Chatserver.dir/model/usermodel.cpp.i"
-	cd /root/hzhdata/2025-bigproject/1-chat-web/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/hzhdata/2025-bigproject/1-chat-web/src/server/model/usermodel.cpp > CMakeFiles/Chatserver.dir/model/usermodel.cpp.i
+	cd /root/hzhdata/2025-bigproject/1-chat-group/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/hzhdata/2025-bigproject/1-chat-group/src/server/model/usermodel.cpp > CMakeFiles/Chatserver.dir/model/usermodel.cpp.i
 
 src/server/CMakeFiles/Chatserver.dir/model/usermodel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Chatserver.dir/model/usermodel.cpp.s"
-	cd /root/hzhdata/2025-bigproject/1-chat-web/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/hzhdata/2025-bigproject/1-chat-web/src/server/model/usermodel.cpp -o CMakeFiles/Chatserver.dir/model/usermodel.cpp.s
+	cd /root/hzhdata/2025-bigproject/1-chat-group/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/hzhdata/2025-bigproject/1-chat-group/src/server/model/usermodel.cpp -o CMakeFiles/Chatserver.dir/model/usermodel.cpp.s
 
 # Object files for target Chatserver
 Chatserver_OBJECTS = \
@@ -185,8 +185,8 @@ Chatserver_EXTERNAL_OBJECTS =
 ../bin/Chatserver: src/server/CMakeFiles/Chatserver.dir/model/usermodel.cpp.o
 ../bin/Chatserver: src/server/CMakeFiles/Chatserver.dir/build.make
 ../bin/Chatserver: src/server/CMakeFiles/Chatserver.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/hzhdata/2025-bigproject/1-chat-web/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable ../../../bin/Chatserver"
-	cd /root/hzhdata/2025-bigproject/1-chat-web/build/src/server && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Chatserver.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/hzhdata/2025-bigproject/1-chat-group/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable ../../../bin/Chatserver"
+	cd /root/hzhdata/2025-bigproject/1-chat-group/build/src/server && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Chatserver.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/server/CMakeFiles/Chatserver.dir/build: ../bin/Chatserver
@@ -194,10 +194,10 @@ src/server/CMakeFiles/Chatserver.dir/build: ../bin/Chatserver
 .PHONY : src/server/CMakeFiles/Chatserver.dir/build
 
 src/server/CMakeFiles/Chatserver.dir/clean:
-	cd /root/hzhdata/2025-bigproject/1-chat-web/build/src/server && $(CMAKE_COMMAND) -P CMakeFiles/Chatserver.dir/cmake_clean.cmake
+	cd /root/hzhdata/2025-bigproject/1-chat-group/build/src/server && $(CMAKE_COMMAND) -P CMakeFiles/Chatserver.dir/cmake_clean.cmake
 .PHONY : src/server/CMakeFiles/Chatserver.dir/clean
 
 src/server/CMakeFiles/Chatserver.dir/depend:
-	cd /root/hzhdata/2025-bigproject/1-chat-web/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/hzhdata/2025-bigproject/1-chat-web /root/hzhdata/2025-bigproject/1-chat-web/src/server /root/hzhdata/2025-bigproject/1-chat-web/build /root/hzhdata/2025-bigproject/1-chat-web/build/src/server /root/hzhdata/2025-bigproject/1-chat-web/build/src/server/CMakeFiles/Chatserver.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/hzhdata/2025-bigproject/1-chat-group/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/hzhdata/2025-bigproject/1-chat-group /root/hzhdata/2025-bigproject/1-chat-group/src/server /root/hzhdata/2025-bigproject/1-chat-group/build /root/hzhdata/2025-bigproject/1-chat-group/build/src/server /root/hzhdata/2025-bigproject/1-chat-group/build/src/server/CMakeFiles/Chatserver.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/server/CMakeFiles/Chatserver.dir/depend
 

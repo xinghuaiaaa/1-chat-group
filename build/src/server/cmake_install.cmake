@@ -1,4 +1,4 @@
-# Install script for directory: /root/hzhdata/2025-bigproject/1-chat-web/src/server
+# Install script for directory: /root/hzhdata/2025-bigproject/1-chat-group/src/server
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

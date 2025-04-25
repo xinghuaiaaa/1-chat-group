@@ -1,4 +1,4 @@
-# Install script for directory: /root/hzhdata/2025-bigproject/1-chat-web/src
+# Install script for directory: /root/hzhdata/2025-bigproject/1-chat-group/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,8 +39,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/root/hzhdata/2025-bigproject/1-chat-web/build/src/server/cmake_install.cmake")
-  include("/root/hzhdata/2025-bigproject/1-chat-web/build/src/client/cmake_install.cmake")
+  include("/root/hzhdata/2025-bigproject/1-chat-group/build/src/server/cmake_install.cmake")
+  include("/root/hzhdata/2025-bigproject/1-chat-group/build/src/client/cmake_install.cmake")
 
 endif()
 

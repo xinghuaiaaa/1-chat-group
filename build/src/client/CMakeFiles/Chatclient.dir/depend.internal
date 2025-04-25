@@ -7,4 +7,4 @@ src/client/CMakeFiles/Chatclient.dir/main.cpp.o
  ../include/server/model/groupuser.hpp
  ../include/server/model/user.hpp
  ../thirdparty/json.hpp
- /root/hzhdata/2025-bigproject/1-chat-web/src/client/main.cpp
+ /root/hzhdata/2025-bigproject/1-chat-group/src/client/main.cpp

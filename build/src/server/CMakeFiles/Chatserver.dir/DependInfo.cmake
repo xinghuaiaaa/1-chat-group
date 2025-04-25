@@ -4,14 +4,14 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/root/hzhdata/2025-bigproject/1-chat-web/src/server/chatserver.cpp" "/root/hzhdata/2025-bigproject/1-chat-web/build/src/server/CMakeFiles/Chatserver.dir/chatserver.cpp.o"
-  "/root/hzhdata/2025-bigproject/1-chat-web/src/server/chatservice.cpp" "/root/hzhdata/2025-bigproject/1-chat-web/build/src/server/CMakeFiles/Chatserver.dir/chatservice.cpp.o"
-  "/root/hzhdata/2025-bigproject/1-chat-web/src/server/db/db.cpp" "/root/hzhdata/2025-bigproject/1-chat-web/build/src/server/CMakeFiles/Chatserver.dir/db/db.cpp.o"
-  "/root/hzhdata/2025-bigproject/1-chat-web/src/server/main.cpp" "/root/hzhdata/2025-bigproject/1-chat-web/build/src/server/CMakeFiles/Chatserver.dir/main.cpp.o"
-  "/root/hzhdata/2025-bigproject/1-chat-web/src/server/model/friendmodel.cpp" "/root/hzhdata/2025-bigproject/1-chat-web/build/src/server/CMakeFiles/Chatserver.dir/model/friendmodel.cpp.o"
-  "/root/hzhdata/2025-bigproject/1-chat-web/src/server/model/groupmodel.cpp" "/root/hzhdata/2025-bigproject/1-chat-web/build/src/server/CMakeFiles/Chatserver.dir/model/groupmodel.cpp.o"
-  "/root/hzhdata/2025-bigproject/1-chat-web/src/server/model/offlinemessagemodel.cpp" "/root/hzhdata/2025-bigproject/1-chat-web/build/src/server/CMakeFiles/Chatserver.dir/model/offlinemessagemodel.cpp.o"
-  "/root/hzhdata/2025-bigproject/1-chat-web/src/server/model/usermodel.cpp" "/root/hzhdata/2025-bigproject/1-chat-web/build/src/server/CMakeFiles/Chatserver.dir/model/usermodel.cpp.o"
+  "/root/hzhdata/2025-bigproject/1-chat-group/src/server/chatserver.cpp" "/root/hzhdata/2025-bigproject/1-chat-group/build/src/server/CMakeFiles/Chatserver.dir/chatserver.cpp.o"
+  "/root/hzhdata/2025-bigproject/1-chat-group/src/server/chatservice.cpp" "/root/hzhdata/2025-bigproject/1-chat-group/build/src/server/CMakeFiles/Chatserver.dir/chatservice.cpp.o"
+  "/root/hzhdata/2025-bigproject/1-chat-group/src/server/db/db.cpp" "/root/hzhdata/2025-bigproject/1-chat-group/build/src/server/CMakeFiles/Chatserver.dir/db/db.cpp.o"
+  "/root/hzhdata/2025-bigproject/1-chat-group/src/server/main.cpp" "/root/hzhdata/2025-bigproject/1-chat-group/build/src/server/CMakeFiles/Chatserver.dir/main.cpp.o"
+  "/root/hzhdata/2025-bigproject/1-chat-group/src/server/model/friendmodel.cpp" "/root/hzhdata/2025-bigproject/1-chat-group/build/src/server/CMakeFiles/Chatserver.dir/model/friendmodel.cpp.o"
+  "/root/hzhdata/2025-bigproject/1-chat-group/src/server/model/groupmodel.cpp" "/root/hzhdata/2025-bigproject/1-chat-group/build/src/server/CMakeFiles/Chatserver.dir/model/groupmodel.cpp.o"
+  "/root/hzhdata/2025-bigproject/1-chat-group/src/server/model/offlinemessagemodel.cpp" "/root/hzhdata/2025-bigproject/1-chat-group/build/src/server/CMakeFiles/Chatserver.dir/model/offlinemessagemodel.cpp.o"
+  "/root/hzhdata/2025-bigproject/1-chat-group/src/server/model/usermodel.cpp" "/root/hzhdata/2025-bigproject/1-chat-group/build/src/server/CMakeFiles/Chatserver.dir/model/usermodel.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
