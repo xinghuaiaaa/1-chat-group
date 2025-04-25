@@ -1,0 +1,232 @@
+[
+{
+  "directory": "/root/hzhdata/2025-bigproject/1-chat-web/package/build/release-cpp11/muduo/base",
+  "command": "/usr/bin/c++   -I/root/anaconda3/include -I/root/hzhdata/2025-bigproject/1-chat-web/package/muduo  -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG   -Wno-old-style-cast -o CMakeFiles/muduo_base.dir/AsyncLogging.cc.o -c /root/hzhdata/2025-bigproject/1-chat-web/package/muduo/muduo/base/AsyncLogging.cc",
+  "file": "/root/hzhdata/2025-bigproject/1-chat-web/package/muduo/muduo/base/AsyncLogging.cc"
+},
+{
+  "directory": "/root/hzhdata/2025-bigproject/1-chat-web/package/build/release-cpp11/muduo/base",
+  "command": "/usr/bin/c++   -I/root/anaconda3/include -I/root/hzhdata/2025-bigproject/1-chat-web/package/muduo  -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG   -Wno-old-style-cast -o CMakeFiles/muduo_base.dir/Condition.cc.o -c /root/hzhdata/2025-bigproject/1-chat-web/package/muduo/muduo/base/Condition.cc",
+  "file": "/root/hzhdata/2025-bigproject/1-chat-web/package/muduo/muduo/base/Condition.cc"
+},
+{
+  "directory": "/root/hzhdata/2025-bigproject/1-chat-web/package/build/release-cpp11/muduo/base",
+  "command": "/usr/bin/c++   -I/root/anaconda3/include -I/root/hzhdata/2025-bigproject/1-chat-web/package/muduo  -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG   -Wno-old-style-cast -o CMakeFiles/muduo_base.dir/CountDownLatch.cc.o -c /root/hzhdata/2025-bigproject/1-chat-web/package/muduo/muduo/base/CountDownLatch.cc",
+  "file": "/root/hzhdata/2025-bigproject/1-chat-web/package/muduo/muduo/base/CountDownLatch.cc"
+},
+{
+  "directory": "/root/hzhdata/2025-bigproject/1-chat-web/package/build/release-cpp11/muduo/base",
+  "command": "/usr/bin/c++   -I/root/anaconda3/include -I/root/hzhdata/2025-bigproject/1-chat-web/package/muduo  -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG   -Wno-old-style-cast -o CMakeFiles/muduo_base.dir/CurrentThread.cc.o -c /root/hzhdata/2025-bigproject/1-chat-web/package/muduo/muduo/base/CurrentThread.cc",
+  "file": "/root/hzhdata/2025-bigproject/1-chat-web/package/muduo/muduo/base/CurrentThread.cc"
+},
+{
+  "directory": "/root/hzhdata/2025-bigproject/1-chat-web/package/build/release-cpp11/muduo/base",
+  "command": "/usr/bin/c++   -I/root/anaconda3/include -I/root/hzhdata/2025-bigproject/1-chat-web/package/muduo  -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG   -Wno-old-style-cast -o CMakeFiles/muduo_base.dir/Date.cc.o -c /root/hzhdata/2025-bigproject/1-chat-web/package/muduo/muduo/base/Date.cc",
+  "file": "/root/hzhdata/2025-bigproject/1-chat-web/package/muduo/muduo/base/Date.cc"
+},
+{
+  "directory": "/root/hzhdata/2025-bigproject/1-chat-web/package/build/release-cpp11/muduo/base",
+  "command": "/usr/bin/c++   -I/root/anaconda3/include -I/root/hzhdata/2025-bigproject/1-chat-web/package/muduo  -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG   -Wno-old-style-cast -o CMakeFiles/muduo_base.dir/Exception.cc.o -c /root/hzhdata/2025-bigproject/1-chat-web/package/muduo/muduo/base/Exception.cc",
+  "file": "/root/hzhdata/2025-bigproject/1-chat-web/package/muduo/muduo/base/Exception.cc"
+},
+{
+  "directory": "/root/hzhdata/2025-bigproject/1-chat-web/package/build/release-cpp11/muduo/base",
+  "command": "/usr/bin/c++   -I/root/anaconda3/include -I/root/hzhdata/2025-bigproject/1-chat-web/package/muduo  -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG   -Wno-old-style-cast -o CMakeFiles/muduo_base.dir/FileUtil.cc.o -c /root/hzhdata/2025-bigproject/1-chat-web/package/muduo/muduo/base/FileUtil.cc",
+  "file": "/root/hzhdata/2025-bigproject/1-chat-web/package/muduo/muduo/base/FileUtil.cc"
+},
+{
+  "directory": "/root/hzhdata/2025-bigproject/1-chat-web/package/build/release-cpp11/muduo/base",
+  "command": "/usr/bin/c++   -I/root/anaconda3/include -I/root/hzhdata/2025-bigproject/1-chat-web/package/muduo  -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG   -Wno-old-style-cast -o CMakeFiles/muduo_base.dir/LogFile.cc.o -c /root/hzhdata/2025-bigproject/1-chat-web/package/muduo/muduo/base/LogFile.cc",
+  "file": "/root/hzhdata/2025-bigproject/1-chat-web/package/muduo/muduo/base/LogFile.cc"
+},
+{
+  "directory": "/root/hzhdata/2025-bigproject/1-chat-web/package/build/release-cpp11/muduo/base",
+  "command": "/usr/bin/c++   -I/root/anaconda3/include -I/root/hzhdata/2025-bigproject/1-chat-web/package/muduo  -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG   -Wno-old-style-cast -o CMakeFiles/muduo_base.dir/Logging.cc.o -c /root/hzhdata/2025-bigproject/1-chat-web/package/muduo/muduo/base/Logging.cc",
+  "file": "/root/hzhdata/2025-bigproject/1-chat-web/package/muduo/muduo/base/Logging.cc"
+},
+{
+  "directory": "/root/hzhdata/2025-bigproject/1-chat-web/package/build/release-cpp11/muduo/base",
+  "command": "/usr/bin/c++   -I/root/anaconda3/include -I/root/hzhdata/2025-bigproject/1-chat-web/package/muduo  -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG   -Wno-old-style-cast -o CMakeFiles/muduo_base.dir/LogStream.cc.o -c /root/hzhdata/2025-bigproject/1-chat-web/package/muduo/muduo/base/LogStream.cc",
+  "file": "/root/hzhdata/2025-bigproject/1-chat-web/package/muduo/muduo/base/LogStream.cc"
+},
+{
+  "directory": "/root/hzhdata/2025-bigproject/1-chat-web/package/build/release-cpp11/muduo/base",
+  "command": "/usr/bin/c++   -I/root/anaconda3/include -I/root/hzhdata/2025-bigproject/1-chat-web/package/muduo  -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG   -Wno-old-style-cast -o CMakeFiles/muduo_base.dir/ProcessInfo.cc.o -c /root/hzhdata/2025-bigproject/1-chat-web/package/muduo/muduo/base/ProcessInfo.cc",
+  "file": "/root/hzhdata/2025-bigproject/1-chat-web/package/muduo/muduo/base/ProcessInfo.cc"
+},
+{
+  "directory": "/root/hzhdata/2025-bigproject/1-chat-web/package/build/release-cpp11/muduo/base",
+  "command": "/usr/bin/c++   -I/root/anaconda3/include -I/root/hzhdata/2025-bigproject/1-chat-web/package/muduo  -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG   -Wno-old-style-cast -o CMakeFiles/muduo_base.dir/Timestamp.cc.o -c /root/hzhdata/2025-bigproject/1-chat-web/package/muduo/muduo/base/Timestamp.cc",
+  "file": "/root/hzhdata/2025-bigproject/1-chat-web/package/muduo/muduo/base/Timestamp.cc"
+},
+{
+  "directory": "/root/hzhdata/2025-bigproject/1-chat-web/package/build/release-cpp11/muduo/base",
+  "command": "/usr/bin/c++   -I/root/anaconda3/include -I/root/hzhdata/2025-bigproject/1-chat-web/package/muduo  -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG   -Wno-old-style-cast -o CMakeFiles/muduo_base.dir/Thread.cc.o -c /root/hzhdata/2025-bigproject/1-chat-web/package/muduo/muduo/base/Thread.cc",
+  "file": "/root/hzhdata/2025-bigproject/1-chat-web/package/muduo/muduo/base/Thread.cc"
+},
+{
+  "directory": "/root/hzhdata/2025-bigproject/1-chat-web/package/build/release-cpp11/muduo/base",
+  "command": "/usr/bin/c++   -I/root/anaconda3/include -I/root/hzhdata/2025-bigproject/1-chat-web/package/muduo  -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG   -Wno-old-style-cast -o CMakeFiles/muduo_base.dir/ThreadPool.cc.o -c /root/hzhdata/2025-bigproject/1-chat-web/package/muduo/muduo/base/ThreadPool.cc",
+  "file": "/root/hzhdata/2025-bigproject/1-chat-web/package/muduo/muduo/base/ThreadPool.cc"
+},
+{
+  "directory": "/root/hzhdata/2025-bigproject/1-chat-web/package/build/release-cpp11/muduo/base",
+  "command": "/usr/bin/c++   -I/root/anaconda3/include -I/root/hzhdata/2025-bigproject/1-chat-web/package/muduo  -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG   -Wno-old-style-cast -o CMakeFiles/muduo_base.dir/TimeZone.cc.o -c /root/hzhdata/2025-bigproject/1-chat-web/package/muduo/muduo/base/TimeZone.cc",
+  "file": "/root/hzhdata/2025-bigproject/1-chat-web/package/muduo/muduo/base/TimeZone.cc"
+},
+{
+  "directory": "/root/hzhdata/2025-bigproject/1-chat-web/package/build/release-cpp11/muduo/net",
+  "command": "/usr/bin/c++   -I/root/anaconda3/include -I/root/hzhdata/2025-bigproject/1-chat-web/package/muduo  -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG   -Wno-old-style-cast -o CMakeFiles/muduo_net.dir/Acceptor.cc.o -c /root/hzhdata/2025-bigproject/1-chat-web/package/muduo/muduo/net/Acceptor.cc",
+  "file": "/root/hzhdata/2025-bigproject/1-chat-web/package/muduo/muduo/net/Acceptor.cc"
+},
+{
+  "directory": "/root/hzhdata/2025-bigproject/1-chat-web/package/build/release-cpp11/muduo/net",
+  "command": "/usr/bin/c++   -I/root/anaconda3/include -I/root/hzhdata/2025-bigproject/1-chat-web/package/muduo  -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG   -Wno-old-style-cast -o CMakeFiles/muduo_net.dir/Buffer.cc.o -c /root/hzhdata/2025-bigproject/1-chat-web/package/muduo/muduo/net/Buffer.cc",
+  "file": "/root/hzhdata/2025-bigproject/1-chat-web/package/muduo/muduo/net/Buffer.cc"
+},
+{
+  "directory": "/root/hzhdata/2025-bigproject/1-chat-web/package/build/release-cpp11/muduo/net",
+  "command": "/usr/bin/c++   -I/root/anaconda3/include -I/root/hzhdata/2025-bigproject/1-chat-web/package/muduo  -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG   -Wno-old-style-cast -o CMakeFiles/muduo_net.dir/Channel.cc.o -c /root/hzhdata/2025-bigproject/1-chat-web/package/muduo/muduo/net/Channel.cc",
+  "file": "/root/hzhdata/2025-bigproject/1-chat-web/package/muduo/muduo/net/Channel.cc"
+},
+{
+  "directory": "/root/hzhdata/2025-bigproject/1-chat-web/package/build/release-cpp11/muduo/net",
+  "command": "/usr/bin/c++   -I/root/anaconda3/include -I/root/hzhdata/2025-bigproject/1-chat-web/package/muduo  -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG   -Wno-old-style-cast -o CMakeFiles/muduo_net.dir/Connector.cc.o -c /root/hzhdata/2025-bigproject/1-chat-web/package/muduo/muduo/net/Connector.cc",
+  "file": "/root/hzhdata/2025-bigproject/1-chat-web/package/muduo/muduo/net/Connector.cc"
+},
+{
+  "directory": "/root/hzhdata/2025-bigproject/1-chat-web/package/build/release-cpp11/muduo/net",
+  "command": "/usr/bin/c++   -I/root/anaconda3/include -I/root/hzhdata/2025-bigproject/1-chat-web/package/muduo  -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG   -Wno-old-style-cast -o CMakeFiles/muduo_net.dir/EventLoop.cc.o -c /root/hzhdata/2025-bigproject/1-chat-web/package/muduo/muduo/net/EventLoop.cc",
+  "file": "/root/hzhdata/2025-bigproject/1-chat-web/package/muduo/muduo/net/EventLoop.cc"
+},
+{
+  "directory": "/root/hzhdata/2025-bigproject/1-chat-web/package/build/release-cpp11/muduo/net",
+  "command": "/usr/bin/c++   -I/root/anaconda3/include -I/root/hzhdata/2025-bigproject/1-chat-web/package/muduo  -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG   -Wno-old-style-cast -o CMakeFiles/muduo_net.dir/EventLoopThread.cc.o -c /root/hzhdata/2025-bigproject/1-chat-web/package/muduo/muduo/net/EventLoopThread.cc",
+  "file": "/root/hzhdata/2025-bigproject/1-chat-web/package/muduo/muduo/net/EventLoopThread.cc"
+},
+{
+  "directory": "/root/hzhdata/2025-bigproject/1-chat-web/package/build/release-cpp11/muduo/net",
+  "command": "/usr/bin/c++   -I/root/anaconda3/include -I/root/hzhdata/2025-bigproject/1-chat-web/package/muduo  -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG   -Wno-old-style-cast -o CMakeFiles/muduo_net.dir/EventLoopThreadPool.cc.o -c /root/hzhdata/2025-bigproject/1-chat-web/package/muduo/muduo/net/EventLoopThreadPool.cc",
+  "file": "/root/hzhdata/2025-bigproject/1-chat-web/package/muduo/muduo/net/EventLoopThreadPool.cc"
+},
+{
+  "directory": "/root/hzhdata/2025-bigproject/1-chat-web/package/build/release-cpp11/muduo/net",
+  "command": "/usr/bin/c++   -I/root/anaconda3/include -I/root/hzhdata/2025-bigproject/1-chat-web/package/muduo  -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG   -Wno-old-style-cast -o CMakeFiles/muduo_net.dir/InetAddress.cc.o -c /root/hzhdata/2025-bigproject/1-chat-web/package/muduo/muduo/net/InetAddress.cc",
+  "file": "/root/hzhdata/2025-bigproject/1-chat-web/package/muduo/muduo/net/InetAddress.cc"
+},
+{
+  "directory": "/root/hzhdata/2025-bigproject/1-chat-web/package/build/release-cpp11/muduo/net",
+  "command": "/usr/bin/c++   -I/root/anaconda3/include -I/root/hzhdata/2025-bigproject/1-chat-web/package/muduo  -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG   -Wno-old-style-cast -o CMakeFiles/muduo_net.dir/Poller.cc.o -c /root/hzhdata/2025-bigproject/1-chat-web/package/muduo/muduo/net/Poller.cc",
+  "file": "/root/hzhdata/2025-bigproject/1-chat-web/package/muduo/muduo/net/Poller.cc"
+},
+{
+  "directory": "/root/hzhdata/2025-bigproject/1-chat-web/package/build/release-cpp11/muduo/net",
+  "command": "/usr/bin/c++   -I/root/anaconda3/include -I/root/hzhdata/2025-bigproject/1-chat-web/package/muduo  -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG   -Wno-old-style-cast -o CMakeFiles/muduo_net.dir/poller/DefaultPoller.cc.o -c /root/hzhdata/2025-bigproject/1-chat-web/package/muduo/muduo/net/poller/DefaultPoller.cc",
+  "file": "/root/hzhdata/2025-bigproject/1-chat-web/package/muduo/muduo/net/poller/DefaultPoller.cc"
+},
+{
+  "directory": "/root/hzhdata/2025-bigproject/1-chat-web/package/build/release-cpp11/muduo/net",
+  "command": "/usr/bin/c++   -I/root/anaconda3/include -I/root/hzhdata/2025-bigproject/1-chat-web/package/muduo  -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG   -Wno-old-style-cast -o CMakeFiles/muduo_net.dir/poller/EPollPoller.cc.o -c /root/hzhdata/2025-bigproject/1-chat-web/package/muduo/muduo/net/poller/EPollPoller.cc",
+  "file": "/root/hzhdata/2025-bigproject/1-chat-web/package/muduo/muduo/net/poller/EPollPoller.cc"
+},
+{
+  "directory": "/root/hzhdata/2025-bigproject/1-chat-web/package/build/release-cpp11/muduo/net",
+  "command": "/usr/bin/c++   -I/root/anaconda3/include -I/root/hzhdata/2025-bigproject/1-chat-web/package/muduo  -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG   -Wno-old-style-cast -o CMakeFiles/muduo_net.dir/poller/PollPoller.cc.o -c /root/hzhdata/2025-bigproject/1-chat-web/package/muduo/muduo/net/poller/PollPoller.cc",
+  "file": "/root/hzhdata/2025-bigproject/1-chat-web/package/muduo/muduo/net/poller/PollPoller.cc"
+},
+{
+  "directory": "/root/hzhdata/2025-bigproject/1-chat-web/package/build/release-cpp11/muduo/net",
+  "command": "/usr/bin/c++   -I/root/anaconda3/include -I/root/hzhdata/2025-bigproject/1-chat-web/package/muduo  -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG   -Wno-old-style-cast -o CMakeFiles/muduo_net.dir/Socket.cc.o -c /root/hzhdata/2025-bigproject/1-chat-web/package/muduo/muduo/net/Socket.cc",
+  "file": "/root/hzhdata/2025-bigproject/1-chat-web/package/muduo/muduo/net/Socket.cc"
+},
+{
+  "directory": "/root/hzhdata/2025-bigproject/1-chat-web/package/build/release-cpp11/muduo/net",
+  "command": "/usr/bin/c++   -I/root/anaconda3/include -I/root/hzhdata/2025-bigproject/1-chat-web/package/muduo  -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG   -Wno-old-style-cast -o CMakeFiles/muduo_net.dir/SocketsOps.cc.o -c /root/hzhdata/2025-bigproject/1-chat-web/package/muduo/muduo/net/SocketsOps.cc",
+  "file": "/root/hzhdata/2025-bigproject/1-chat-web/package/muduo/muduo/net/SocketsOps.cc"
+},
+{
+  "directory": "/root/hzhdata/2025-bigproject/1-chat-web/package/build/release-cpp11/muduo/net",
+  "command": "/usr/bin/c++   -I/root/anaconda3/include -I/root/hzhdata/2025-bigproject/1-chat-web/package/muduo  -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG   -Wno-old-style-cast -o CMakeFiles/muduo_net.dir/TcpClient.cc.o -c /root/hzhdata/2025-bigproject/1-chat-web/package/muduo/muduo/net/TcpClient.cc",
+  "file": "/root/hzhdata/2025-bigproject/1-chat-web/package/muduo/muduo/net/TcpClient.cc"
+},
+{
+  "directory": "/root/hzhdata/2025-bigproject/1-chat-web/package/build/release-cpp11/muduo/net",
+  "command": "/usr/bin/c++   -I/root/anaconda3/include -I/root/hzhdata/2025-bigproject/1-chat-web/package/muduo  -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG   -Wno-old-style-cast -o CMakeFiles/muduo_net.dir/TcpConnection.cc.o -c /root/hzhdata/2025-bigproject/1-chat-web/package/muduo/muduo/net/TcpConnection.cc",
+  "file": "/root/hzhdata/2025-bigproject/1-chat-web/package/muduo/muduo/net/TcpConnection.cc"
+},
+{
+  "directory": "/root/hzhdata/2025-bigproject/1-chat-web/package/build/release-cpp11/muduo/net",
+  "command": "/usr/bin/c++   -I/root/anaconda3/include -I/root/hzhdata/2025-bigproject/1-chat-web/package/muduo  -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG   -Wno-old-style-cast -o CMakeFiles/muduo_net.dir/TcpServer.cc.o -c /root/hzhdata/2025-bigproject/1-chat-web/package/muduo/muduo/net/TcpServer.cc",
+  "file": "/root/hzhdata/2025-bigproject/1-chat-web/package/muduo/muduo/net/TcpServer.cc"
+},
+{
+  "directory": "/root/hzhdata/2025-bigproject/1-chat-web/package/build/release-cpp11/muduo/net",
+  "command": "/usr/bin/c++   -I/root/anaconda3/include -I/root/hzhdata/2025-bigproject/1-chat-web/package/muduo  -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG   -Wno-old-style-cast -o CMakeFiles/muduo_net.dir/Timer.cc.o -c /root/hzhdata/2025-bigproject/1-chat-web/package/muduo/muduo/net/Timer.cc",
+  "file": "/root/hzhdata/2025-bigproject/1-chat-web/package/muduo/muduo/net/Timer.cc"
+},
+{
+  "directory": "/root/hzhdata/2025-bigproject/1-chat-web/package/build/release-cpp11/muduo/net",
+  "command": "/usr/bin/c++   -I/root/anaconda3/include -I/root/hzhdata/2025-bigproject/1-chat-web/package/muduo  -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG   -Wno-old-style-cast -o CMakeFiles/muduo_net.dir/TimerQueue.cc.o -c /root/hzhdata/2025-bigproject/1-chat-web/package/muduo/muduo/net/TimerQueue.cc",
+  "file": "/root/hzhdata/2025-bigproject/1-chat-web/package/muduo/muduo/net/TimerQueue.cc"
+},
+{
+  "directory": "/root/hzhdata/2025-bigproject/1-chat-web/package/build/release-cpp11/muduo/net/http",
+  "command": "/usr/bin/c++   -I/root/anaconda3/include -I/root/hzhdata/2025-bigproject/1-chat-web/package/muduo  -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG   -Wno-old-style-cast -o CMakeFiles/muduo_http.dir/HttpServer.cc.o -c /root/hzhdata/2025-bigproject/1-chat-web/package/muduo/muduo/net/http/HttpServer.cc",
+  "file": "/root/hzhdata/2025-bigproject/1-chat-web/package/muduo/muduo/net/http/HttpServer.cc"
+},
+{
+  "directory": "/root/hzhdata/2025-bigproject/1-chat-web/package/build/release-cpp11/muduo/net/http",
+  "command": "/usr/bin/c++   -I/root/anaconda3/include -I/root/hzhdata/2025-bigproject/1-chat-web/package/muduo  -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG   -Wno-old-style-cast -o CMakeFiles/muduo_http.dir/HttpResponse.cc.o -c /root/hzhdata/2025-bigproject/1-chat-web/package/muduo/muduo/net/http/HttpResponse.cc",
+  "file": "/root/hzhdata/2025-bigproject/1-chat-web/package/muduo/muduo/net/http/HttpResponse.cc"
+},
+{
+  "directory": "/root/hzhdata/2025-bigproject/1-chat-web/package/build/release-cpp11/muduo/net/http",
+  "command": "/usr/bin/c++   -I/root/anaconda3/include -I/root/hzhdata/2025-bigproject/1-chat-web/package/muduo  -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG   -Wno-old-style-cast -o CMakeFiles/muduo_http.dir/HttpContext.cc.o -c /root/hzhdata/2025-bigproject/1-chat-web/package/muduo/muduo/net/http/HttpContext.cc",
+  "file": "/root/hzhdata/2025-bigproject/1-chat-web/package/muduo/muduo/net/http/HttpContext.cc"
+},
+{
+  "directory": "/root/hzhdata/2025-bigproject/1-chat-web/package/build/release-cpp11/muduo/net/inspect",
+  "command": "/usr/bin/c++   -I/root/anaconda3/include -I/root/hzhdata/2025-bigproject/1-chat-web/package/muduo  -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG   -Wno-old-style-cast -o CMakeFiles/muduo_inspect.dir/Inspector.cc.o -c /root/hzhdata/2025-bigproject/1-chat-web/package/muduo/muduo/net/inspect/Inspector.cc",
+  "file": "/root/hzhdata/2025-bigproject/1-chat-web/package/muduo/muduo/net/inspect/Inspector.cc"
+},
+{
+  "directory": "/root/hzhdata/2025-bigproject/1-chat-web/package/build/release-cpp11/muduo/net/inspect",
+  "command": "/usr/bin/c++   -I/root/anaconda3/include -I/root/hzhdata/2025-bigproject/1-chat-web/package/muduo  -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG   -Wno-old-style-cast -o CMakeFiles/muduo_inspect.dir/PerformanceInspector.cc.o -c /root/hzhdata/2025-bigproject/1-chat-web/package/muduo/muduo/net/inspect/PerformanceInspector.cc",
+  "file": "/root/hzhdata/2025-bigproject/1-chat-web/package/muduo/muduo/net/inspect/PerformanceInspector.cc"
+},
+{
+  "directory": "/root/hzhdata/2025-bigproject/1-chat-web/package/build/release-cpp11/muduo/net/inspect",
+  "command": "/usr/bin/c++   -I/root/anaconda3/include -I/root/hzhdata/2025-bigproject/1-chat-web/package/muduo  -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG   -Wno-old-style-cast -o CMakeFiles/muduo_inspect.dir/ProcessInspector.cc.o -c /root/hzhdata/2025-bigproject/1-chat-web/package/muduo/muduo/net/inspect/ProcessInspector.cc",
+  "file": "/root/hzhdata/2025-bigproject/1-chat-web/package/muduo/muduo/net/inspect/ProcessInspector.cc"
+},
+{
+  "directory": "/root/hzhdata/2025-bigproject/1-chat-web/package/build/release-cpp11/muduo/net/inspect",
+  "command": "/usr/bin/c++   -I/root/anaconda3/include -I/root/hzhdata/2025-bigproject/1-chat-web/package/muduo  -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG   -Wno-old-style-cast -o CMakeFiles/muduo_inspect.dir/SystemInspector.cc.o -c /root/hzhdata/2025-bigproject/1-chat-web/package/muduo/muduo/net/inspect/SystemInspector.cc",
+  "file": "/root/hzhdata/2025-bigproject/1-chat-web/package/muduo/muduo/net/inspect/SystemInspector.cc"
+},
+{
+  "directory": "/root/hzhdata/2025-bigproject/1-chat-web/package/build/release-cpp11/muduo/net/protobuf",
+  "command": "/usr/bin/c++   -I/root/anaconda3/include -I/root/hzhdata/2025-bigproject/1-chat-web/package/muduo  -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG   -Wno-error=shadow -Wno-old-style-cast -o CMakeFiles/muduo_protobuf_codec.dir/ProtobufCodecLite.cc.o -c /root/hzhdata/2025-bigproject/1-chat-web/package/muduo/muduo/net/protobuf/ProtobufCodecLite.cc",
+  "file": "/root/hzhdata/2025-bigproject/1-chat-web/package/muduo/muduo/net/protobuf/ProtobufCodecLite.cc"
+},
+{
+  "directory": "/root/hzhdata/2025-bigproject/1-chat-web/package/build/release-cpp11/muduo/net/protorpc",
+  "command": "/usr/bin/c++   -I/root/anaconda3/include -I/root/hzhdata/2025-bigproject/1-chat-web/package/muduo -I/root/hzhdata/2025-bigproject/1-chat-web/package/build/release-cpp11  -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG   -Wno-error=shadow -Wno-old-style-cast -o CMakeFiles/muduo_protorpc.dir/RpcChannel.cc.o -c /root/hzhdata/2025-bigproject/1-chat-web/package/muduo/muduo/net/protorpc/RpcChannel.cc",
+  "file": "/root/hzhdata/2025-bigproject/1-chat-web/package/muduo/muduo/net/protorpc/RpcChannel.cc"
+},
+{
+  "directory": "/root/hzhdata/2025-bigproject/1-chat-web/package/build/release-cpp11/muduo/net/protorpc",
+  "command": "/usr/bin/c++   -I/root/anaconda3/include -I/root/hzhdata/2025-bigproject/1-chat-web/package/muduo -I/root/hzhdata/2025-bigproject/1-chat-web/package/build/release-cpp11  -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG   -Wno-error=shadow -Wno-old-style-cast -o CMakeFiles/muduo_protorpc.dir/RpcServer.cc.o -c /root/hzhdata/2025-bigproject/1-chat-web/package/muduo/muduo/net/protorpc/RpcServer.cc",
+  "file": "/root/hzhdata/2025-bigproject/1-chat-web/package/muduo/muduo/net/protorpc/RpcServer.cc"
+},
+{
+  "directory": "/root/hzhdata/2025-bigproject/1-chat-web/package/build/release-cpp11/muduo/net/protorpc",
+  "command": "/usr/bin/c++   -I/root/anaconda3/include -I/root/hzhdata/2025-bigproject/1-chat-web/package/muduo -I/root/hzhdata/2025-bigproject/1-chat-web/package/build/release-cpp11  -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG   -Wno-error=shadow -Wno-old-style-cast -Wno-conversion -o CMakeFiles/muduo_protorpc_wire.dir/rpc.pb.cc.o -c /root/hzhdata/2025-bigproject/1-chat-web/package/build/release-cpp11/muduo/net/protorpc/rpc.pb.cc",
+  "file": "/root/hzhdata/2025-bigproject/1-chat-web/package/build/release-cpp11/muduo/net/protorpc/rpc.pb.cc"
+},
+{
+  "directory": "/root/hzhdata/2025-bigproject/1-chat-web/package/build/release-cpp11/muduo/net/protorpc",
+  "command": "/usr/bin/c++   -I/root/anaconda3/include -I/root/hzhdata/2025-bigproject/1-chat-web/package/muduo -I/root/hzhdata/2025-bigproject/1-chat-web/package/build/release-cpp11  -g -DCHECK_PTHREAD_RETURN_VALUE -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -std=c++11 -rdynamic -O2 -DNDEBUG   -Wno-error=shadow -Wno-old-style-cast -o CMakeFiles/muduo_protorpc_wire.dir/RpcCodec.cc.o -c /root/hzhdata/2025-bigproject/1-chat-web/package/muduo/muduo/net/protorpc/RpcCodec.cc",
+  "file": "/root/hzhdata/2025-bigproject/1-chat-web/package/muduo/muduo/net/protorpc/RpcCodec.cc"
+}
+]

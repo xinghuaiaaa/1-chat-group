@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/server/db/db.h
+mysql/mysql.h
+-
+string
+-
+
+../include/server/model/offlinemessagemodel.hpp
+string
+-
+vector
+-
+
+/root/hzhdata/2025-bigproject/1-chat-web/src/server/model/offlinemessagemodel.cpp
+offlinemessagemodel.hpp
+/root/hzhdata/2025-bigproject/1-chat-web/src/server/model/offlinemessagemodel.hpp
+db.h
+/root/hzhdata/2025-bigproject/1-chat-web/src/server/model/db.h
+iostream
+-
+

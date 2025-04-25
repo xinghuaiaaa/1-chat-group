@@ -1,0 +1,47 @@
+[
+{
+  "directory": "/root/hzhdata/2025-bigproject/1-chat-web/build/src/server",
+  "command": "/usr/bin/c++   -I/root/hzhdata/2025-bigproject/1-chat-web/include -I/root/hzhdata/2025-bigproject/1-chat-web/include/server -I/root/hzhdata/2025-bigproject/1-chat-web/thirdparty -I/root/hzhdata/2025-bigproject/1-chat-web/include/server/db -I/root/hzhdata/2025-bigproject/1-chat-web/include/server/model  -g -g   -o CMakeFiles/Chatserver.dir/chatserver.cpp.o -c /root/hzhdata/2025-bigproject/1-chat-web/src/server/chatserver.cpp",
+  "file": "/root/hzhdata/2025-bigproject/1-chat-web/src/server/chatserver.cpp"
+},
+{
+  "directory": "/root/hzhdata/2025-bigproject/1-chat-web/build/src/server",
+  "command": "/usr/bin/c++   -I/root/hzhdata/2025-bigproject/1-chat-web/include -I/root/hzhdata/2025-bigproject/1-chat-web/include/server -I/root/hzhdata/2025-bigproject/1-chat-web/thirdparty -I/root/hzhdata/2025-bigproject/1-chat-web/include/server/db -I/root/hzhdata/2025-bigproject/1-chat-web/include/server/model  -g -g   -o CMakeFiles/Chatserver.dir/chatservice.cpp.o -c /root/hzhdata/2025-bigproject/1-chat-web/src/server/chatservice.cpp",
+  "file": "/root/hzhdata/2025-bigproject/1-chat-web/src/server/chatservice.cpp"
+},
+{
+  "directory": "/root/hzhdata/2025-bigproject/1-chat-web/build/src/server",
+  "command": "/usr/bin/c++   -I/root/hzhdata/2025-bigproject/1-chat-web/include -I/root/hzhdata/2025-bigproject/1-chat-web/include/server -I/root/hzhdata/2025-bigproject/1-chat-web/thirdparty -I/root/hzhdata/2025-bigproject/1-chat-web/include/server/db -I/root/hzhdata/2025-bigproject/1-chat-web/include/server/model  -g -g   -o CMakeFiles/Chatserver.dir/main.cpp.o -c /root/hzhdata/2025-bigproject/1-chat-web/src/server/main.cpp",
+  "file": "/root/hzhdata/2025-bigproject/1-chat-web/src/server/main.cpp"
+},
+{
+  "directory": "/root/hzhdata/2025-bigproject/1-chat-web/build/src/server",
+  "command": "/usr/bin/c++   -I/root/hzhdata/2025-bigproject/1-chat-web/include -I/root/hzhdata/2025-bigproject/1-chat-web/include/server -I/root/hzhdata/2025-bigproject/1-chat-web/thirdparty -I/root/hzhdata/2025-bigproject/1-chat-web/include/server/db -I/root/hzhdata/2025-bigproject/1-chat-web/include/server/model  -g -g   -o CMakeFiles/Chatserver.dir/db/db.cpp.o -c /root/hzhdata/2025-bigproject/1-chat-web/src/server/db/db.cpp",
+  "file": "/root/hzhdata/2025-bigproject/1-chat-web/src/server/db/db.cpp"
+},
+{
+  "directory": "/root/hzhdata/2025-bigproject/1-chat-web/build/src/server",
+  "command": "/usr/bin/c++   -I/root/hzhdata/2025-bigproject/1-chat-web/include -I/root/hzhdata/2025-bigproject/1-chat-web/include/server -I/root/hzhdata/2025-bigproject/1-chat-web/thirdparty -I/root/hzhdata/2025-bigproject/1-chat-web/include/server/db -I/root/hzhdata/2025-bigproject/1-chat-web/include/server/model  -g -g   -o CMakeFiles/Chatserver.dir/model/friendmodel.cpp.o -c /root/hzhdata/2025-bigproject/1-chat-web/src/server/model/friendmodel.cpp",
+  "file": "/root/hzhdata/2025-bigproject/1-chat-web/src/server/model/friendmodel.cpp"
+},
+{
+  "directory": "/root/hzhdata/2025-bigproject/1-chat-web/build/src/server",
+  "command": "/usr/bin/c++   -I/root/hzhdata/2025-bigproject/1-chat-web/include -I/root/hzhdata/2025-bigproject/1-chat-web/include/server -I/root/hzhdata/2025-bigproject/1-chat-web/thirdparty -I/root/hzhdata/2025-bigproject/1-chat-web/include/server/db -I/root/hzhdata/2025-bigproject/1-chat-web/include/server/model  -g -g   -o CMakeFiles/Chatserver.dir/model/groupmodel.cpp.o -c /root/hzhdata/2025-bigproject/1-chat-web/src/server/model/groupmodel.cpp",
+  "file": "/root/hzhdata/2025-bigproject/1-chat-web/src/server/model/groupmodel.cpp"
+},
+{
+  "directory": "/root/hzhdata/2025-bigproject/1-chat-web/build/src/server",
+  "command": "/usr/bin/c++   -I/root/hzhdata/2025-bigproject/1-chat-web/include -I/root/hzhdata/2025-bigproject/1-chat-web/include/server -I/root/hzhdata/2025-bigproject/1-chat-web/thirdparty -I/root/hzhdata/2025-bigproject/1-chat-web/include/server/db -I/root/hzhdata/2025-bigproject/1-chat-web/include/server/model  -g -g   -o CMakeFiles/Chatserver.dir/model/offlinemessagemodel.cpp.o -c /root/hzhdata/2025-bigproject/1-chat-web/src/server/model/offlinemessagemodel.cpp",
+  "file": "/root/hzhdata/2025-bigproject/1-chat-web/src/server/model/offlinemessagemodel.cpp"
+},
+{
+  "directory": "/root/hzhdata/2025-bigproject/1-chat-web/build/src/server",
+  "command": "/usr/bin/c++   -I/root/hzhdata/2025-bigproject/1-chat-web/include -I/root/hzhdata/2025-bigproject/1-chat-web/include/server -I/root/hzhdata/2025-bigproject/1-chat-web/thirdparty -I/root/hzhdata/2025-bigproject/1-chat-web/include/server/db -I/root/hzhdata/2025-bigproject/1-chat-web/include/server/model  -g -g   -o CMakeFiles/Chatserver.dir/model/usermodel.cpp.o -c /root/hzhdata/2025-bigproject/1-chat-web/src/server/model/usermodel.cpp",
+  "file": "/root/hzhdata/2025-bigproject/1-chat-web/src/server/model/usermodel.cpp"
+},
+{
+  "directory": "/root/hzhdata/2025-bigproject/1-chat-web/build/src/client",
+  "command": "/usr/bin/c++   -I/root/hzhdata/2025-bigproject/1-chat-web/include -I/root/hzhdata/2025-bigproject/1-chat-web/include/server -I/root/hzhdata/2025-bigproject/1-chat-web/thirdparty -I/root/hzhdata/2025-bigproject/1-chat-web/include/server/db -I/root/hzhdata/2025-bigproject/1-chat-web/include/server/model  -g -g   -o CMakeFiles/Chatclient.dir/main.cpp.o -c /root/hzhdata/2025-bigproject/1-chat-web/src/client/main.cpp",
+  "file": "/root/hzhdata/2025-bigproject/1-chat-web/src/client/main.cpp"
+}
+]
