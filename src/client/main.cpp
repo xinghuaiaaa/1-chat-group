@@ -169,6 +169,7 @@ int main(int argc, char **argv)
                             for (auto &groupl : groups)
                             {
                                 json js = json::parse(groupl); // 反序列化
+                                string tmp = js.dump();
                                 Group group;
                                 group.setId(js["id"]);
                                 group.setName(js["groupname"]);
@@ -217,11 +218,11 @@ int main(int argc, char **argv)
                                 // 分一下 个人离线和群组离线
                                 if (js["msgid"] == ONE_CHAT_MSG)
                                 {
-                                    cout << response["time"].get<string>() << "[" << response["id"] << "] " << response["name"].get<string>() << " said: " << response["msg"].get<string>() << endl;
+                                    cout << js["time"].get<string>() << "[" << js["id"].get<int>() << "] " << js["name"].get<string>() << " said: " << js["msg"].get<string>() << endl;
                                 }
                                 if (js["msgid"] == GROUP_CHAT_MSG) // 群组聊天消息
                                 {
-                                    cout << "群消息-->[" << response["groupid"] << "] " << response["time"].get<string>() << "[" << response["id"] << "] " << response["name"].get<string>() << " said: " << response["msg"].get<string>() << endl;
+                                    cout << "群消息-->[" << js["groupid"] << "] " << js["time"].get<string>() << "[" << js["id"] << "] " << js["name"].get<string>() << " said: " << js["msg"].get<string>() << endl;
                                 }
                             }
                         }
@@ -621,14 +622,14 @@ void quit(int clientfd, string msg)
 // 时间函数
 string getCurrentTime()
 {
-    // // 获取当前时间
-    // time_t now = time(0); // 获取当前时间
-    // tm *ltm = localtime(&now); // 转换为本地时间
-    // char buffer[80]; // 存储时间字符串
-    // strftime(buffer, sizeof(buffer), "%Y-%m-%d %H:%M:%S", ltm); // 格式化时间
-    // string timeStr(buffer); // 转成string类型
-    // // cout << "current time: " << timeStr << endl; // 测试用
-    // return timeStr; // 返回时间字符串
+    // 获取当前时间
+    time_t now = time(0); // 获取当前时间
+    tm *ltm = localtime(&now); // 转换为本地时间
+    char buffer[80]; // 存储时间字符串
+    strftime(buffer, sizeof(buffer), "%Y-%m-%d %H:%M:%S", ltm); // 格式化时间
+    string timeStr(buffer); // 转成string类型
+    // cout << "current time: " << timeStr << endl; // 测试用
+    return timeStr; // 返回时间字符串
     // return string(); //
-    return string();
+    // return " ";
 }

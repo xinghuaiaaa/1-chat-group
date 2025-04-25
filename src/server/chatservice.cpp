@@ -28,6 +28,10 @@ ChatService::ChatService()
     _msghandlermap.insert({ADD_FRIEND_MSG, std::bind(&ChatService::addFriend, this, _1, _2, _3)});
 
     _msghandlermap.insert({CREATE_GROUP_MSG, std::bind(&ChatService::createGroup, this, _1, _2, _3)});
+
+    _msghandlermap.insert({ADD_GROUP_MSG, std::bind(&ChatService::addGroup, this, _1, _2, _3)});
+
+    _msghandlermap.insert({GROUP_CHAT_MSG, std::bind(&ChatService::groupChat, this, _1, _2, _3)});
 }
 
 // 获取消息对应的处理器
@@ -106,6 +110,34 @@ void ChatService::login(const TcpConnectionPtr &conn, json &js, Timestamp time)
                     vec.push_back(js.dump());
                 }
                 response["friends"] = vec; // 好友列表
+            }
+
+            // 查询群组列表
+            vector<Group> groupVec = _groupModel.queryGroups(id);
+            if (!groupVec.empty())
+            {
+                vector<string> vec;
+                for (auto &groupl : groupVec)
+                {
+                    json js ;
+                    js["id"] = groupl.getId();
+                    js["groupname"] = groupl.getName();
+                    js["groupdesc"] = groupl.getDesc();
+                    
+                    vector<string> usersvec;
+                    for (auto &user : groupl.getUsers())
+                    {
+                        json jsu;
+                        jsu["id"]=user.getId();
+                        jsu["name"]=user.getName();
+                        jsu["state"]=user.getState();
+                        jsu["role"] = user.getRole();
+                        usersvec.push_back(jsu.dump());
+                    }
+                    js["users"] = usersvec;
+                    vec.push_back(js.dump());
+                }
+                response["groups"] = vec; // 群组列表
             }
 
             // 查询离线消息
@@ -240,21 +272,19 @@ void ChatService::addFriend(const TcpConnectionPtr &conn, json &js, Timestamp ti
 // 处理创建群组业务
 void ChatService::createGroup(const TcpConnectionPtr &conn, json &js, Timestamp time)
 {
-    int uerid = js["id"].get<int>();  // 这是 哪个用户要创建群组,  不是群组id
+    int uerid = js["id"].get<int>(); // 这是 哪个用户要创建群组,  不是群组id
     string groupname = js["groupname"];
     string groupdesc = js["groupdesc"];
 
     // 存储新创建的群组信息-----此时还未添加到 数据库, 群id还未知
     Group group(-1, groupname, groupdesc);
 
-    if(_groupModel.createGroup(group))
+    if (_groupModel.createGroup(group))
     {
         // 创建群后, 存储群组创建人 信息
         _groupModel.addGroup(group.getId(), uerid, "creator");
         // 服务器响应 可以自行添加
     }
-    
-    
 }
 
 // 处理添加群组业务
@@ -268,7 +298,7 @@ void ChatService::addGroup(const TcpConnectionPtr &conn, json &js, Timestamp tim
 }
 
 // 处理群组聊天业务
-void ChatService::groupChat(const TcpConnectionPtr &conn, json &js, Timestamp time)   // 3个worker线程 在完成这个函数时, 可能会同时访问 _userConnMap
+void ChatService::groupChat(const TcpConnectionPtr &conn, json &js, Timestamp time) // 3个worker线程 在完成这个函数时, 可能会同时访问 _userConnMap
 {
     int userid = js["id"].get<int>();
     int groupid = js["groupid"].get<int>();
@@ -276,11 +306,11 @@ void ChatService::groupChat(const TcpConnectionPtr &conn, json &js, Timestamp ti
 
     // 群组聊天, 需要将消息转发给群组中的所有用户
     lock_guard<mutex> lock(_connMutex);
-    for(int id : userVec)
+    for (int id : userVec)
     {
         // 用户在线, 就直接转发
-        auto it = _userConnMap.find(id);  
-        if(it != _userConnMap.end())
+        auto it = _userConnMap.find(id);
+        if (it != _userConnMap.end())
         {
             // 在线, 转发消息
             it->second->send(js.dump());
@@ -291,6 +321,4 @@ void ChatService::groupChat(const TcpConnectionPtr &conn, json &js, Timestamp ti
             _offlineMsg.insert(id, js.dump());
         }
     }
-
 }
-

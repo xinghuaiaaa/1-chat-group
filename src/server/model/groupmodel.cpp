@@ -1,9 +1,8 @@
 #include "groupmodel.hpp"
 #include <db.h>
 
-
 bool GroupModel::createGroup(Group &group) // 创建群组
-{   
+{
     // sql语句
     char sql[1024] = {0};
     sprintf(sql, "insert into allgroup(groupname, groupdesc) values('%s', '%s')",
@@ -28,8 +27,7 @@ bool GroupModel::addGroup(int groupid, int userid, string role)
 {
     // sql语句
     char sql[1024] = {0};
-    sprintf(sql, "insert into groupuser(groupid, userid, role) values(%d, %d, '%s')",
-            groupid, userid, role.c_str());
+    sprintf(sql, "insert into groupuser(groupid, userid, grouprole) values(%d, %d, '%s')", groupid, userid, role.c_str());
 
     // 连接数据库
     MySQL mysql;
@@ -60,7 +58,7 @@ vector<Group> GroupModel::queryGroups(int userid)
         MYSQL_RES *res = mysql.query(sql);
         if (res != nullptr)
         {
-            
+
             while (MYSQL_ROW row = mysql_fetch_row(res))
             {
                 Group group;
@@ -70,33 +68,32 @@ vector<Group> GroupModel::queryGroups(int userid)
                 groupVec.push_back(group);
             }
             mysql_free_result(res);
-            return groupVec;
         }
-    }
-
-    // 2.查询每个群组的其他用户信息---群组用户id列表
-    for(auto &group : groupVec)  // 注意这里是引用, 不能用auto group : groupVec
-    {
-        sprintf(sql, "select a.id,a.name, a.state,b.role from user a inner join groupuser b on a.id = b.userid where b.groupid = %d", group.getId());
-        MYSQL_RES *res = mysql.query(sql);
-        if (res != nullptr)
+        // 2.查询每个群组的其他用户信息---群组用户id列表
+        for (auto &group : groupVec) // 注意这里是引用, 不能用auto group : groupVec
         {
-            while (MYSQL_ROW row = mysql_fetch_row(res))
+            sprintf(sql, "select a.id,a.name, a.state,b.grouprole from user a inner join groupuser b on a.id = b.userid where b.groupid = %d", group.getId());
+            MYSQL_RES *res = mysql.query(sql);
+            if (res != nullptr)
             {
-                GroupUser user;
-                user.setId(atoi(row[0]));
-                user.setName(row[1]);
-                user.setState(row[2]);
-                user.setRole(row[3]); // 群组角色
-                // 将用户添加到群组对象中
-                group.getUsers().push_back(user);
+                while (MYSQL_ROW row = mysql_fetch_row(res))
+                {
+                    GroupUser user;
+                    user.setId(atoi(row[0]));
+                    user.setName(row[1]);
+                    user.setState(row[2]);
+                    user.setRole(row[3]); // 群组角色
+                    // 将用户添加到群组对象中
+                    group.getUsers().push_back(user);
+                }
+                mysql_free_result(res);
             }
-            mysql_free_result(res);
         }
+
+        return groupVec;
     }
 
     return vector<Group>();
-
 }
 
 // 根据指定群组id查询群组用户id列表, 除了自己
