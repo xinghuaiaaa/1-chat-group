@@ -20,6 +20,7 @@ using namespace nlohmann;
 #include "offlinemessagemodel.hpp"
 #include "friendmodel.hpp"
 #include "groupmodel.hpp"
+#include "redis.hpp"
 
 //表示处理消息的事件回调方法类型
 using MsgHandler = std::function<void(const TcpConnectionPtr &conn, json &js, Timestamp time)>; // #1
@@ -63,6 +64,9 @@ public:
     // 处理注销业务
     void loginout(const TcpConnectionPtr &conn, json &js, Timestamp time);
 
+    // redis 接收消息并上报 的回调
+    void handleRedisSubscribeMessage(int, string);
+
 private:
     // 单例模式----构造函数私有化,并写一个惟一的实例
     ChatService(); // #5
@@ -88,6 +92,9 @@ private:
 
     // 处理群组业务
     GroupModel _groupModel;
+
+    // 定义redis对象
+    Redis _redis;
     
 };
 

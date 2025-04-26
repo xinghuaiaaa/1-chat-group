@@ -4,8 +4,10 @@ aux_source_directory(. SRC_LIST)
 aux_source_directory(./db DB_LIST)
 #数据层源文件
 aux_source_directory(./model MODEL_LIST)
+# redis服务源文件
+aux_source_directory(./redis REDIS_LIST)
 # 生成可执行
-add_executable(Chatserver ${SRC_LIST} ${DB_LIST} ${MODEL_LIST})
+add_executable(Chatserver ${SRC_LIST} ${DB_LIST} ${MODEL_LIST} ${REDIS_LIST})
 
 # 链接库
-target_link_libraries(Chatserver muduo_net muduo_base pthread mysqlclient)
+target_link_libraries(Chatserver muduo_net muduo_base pthread mysqlclient hiredis)

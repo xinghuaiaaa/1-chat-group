@@ -12,6 +12,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/root/hzhdata/2025-bigproject/1-chat-group/src/server/model/groupmodel.cpp" "/root/hzhdata/2025-bigproject/1-chat-group/build/src/server/CMakeFiles/Chatserver.dir/model/groupmodel.cpp.o"
   "/root/hzhdata/2025-bigproject/1-chat-group/src/server/model/offlinemessagemodel.cpp" "/root/hzhdata/2025-bigproject/1-chat-group/build/src/server/CMakeFiles/Chatserver.dir/model/offlinemessagemodel.cpp.o"
   "/root/hzhdata/2025-bigproject/1-chat-group/src/server/model/usermodel.cpp" "/root/hzhdata/2025-bigproject/1-chat-group/build/src/server/CMakeFiles/Chatserver.dir/model/usermodel.cpp.o"
+  "/root/hzhdata/2025-bigproject/1-chat-group/src/server/redis/redis.cpp" "/root/hzhdata/2025-bigproject/1-chat-group/build/src/server/CMakeFiles/Chatserver.dir/redis/redis.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -22,6 +23,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../thirdparty"
   "../include/server/db"
   "../include/server/model"
+  "../include/server/redis"
   )
 
 # Targets to which this target links.

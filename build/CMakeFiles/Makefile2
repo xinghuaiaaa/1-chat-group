@@ -131,12 +131,12 @@ src/server/clean: src/server/CMakeFiles/Chatserver.dir/clean
 src/server/CMakeFiles/Chatserver.dir/all:
 	$(MAKE) -f src/server/CMakeFiles/Chatserver.dir/build.make src/server/CMakeFiles/Chatserver.dir/depend
 	$(MAKE) -f src/server/CMakeFiles/Chatserver.dir/build.make src/server/CMakeFiles/Chatserver.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/hzhdata/2025-bigproject/1-chat-group/build/CMakeFiles --progress-num=3,4,5,6,7,8,9,10,11 "Built target Chatserver"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/hzhdata/2025-bigproject/1-chat-group/build/CMakeFiles --progress-num=3,4,5,6,7,8,9,10,11,12 "Built target Chatserver"
 .PHONY : src/server/CMakeFiles/Chatserver.dir/all
 
 # Build rule for subdir invocation for target.
 src/server/CMakeFiles/Chatserver.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/hzhdata/2025-bigproject/1-chat-group/build/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/hzhdata/2025-bigproject/1-chat-group/build/CMakeFiles 10
 	$(MAKE) -f CMakeFiles/Makefile2 src/server/CMakeFiles/Chatserver.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/hzhdata/2025-bigproject/1-chat-group/build/CMakeFiles 0
 .PHONY : src/server/CMakeFiles/Chatserver.dir/rule

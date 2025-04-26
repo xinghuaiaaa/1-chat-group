@@ -13,6 +13,7 @@ include_directories(${PROJECT_SOURCE_DIR}/include/server)
 include_directories(${PROJECT_SOURCE_DIR}/thirdparty) 
 include_directories(${PROJECT_SOURCE_DIR}/include/server/db) #数据层头文件
 include_directories(${PROJECT_SOURCE_DIR}/include/server/model) #数据层头文件
+include_directories(${PROJECT_SOURCE_DIR}/include/server/redis) #redis服务头文件
 
 # 加载子目录  src   既然进去, 就有 CMakeLists.txt
 add_subdirectory(src)

@@ -11,6 +11,7 @@ src/server/CMakeFiles/Chatserver.dir/chatserver.cpp.o
  ../include/server/model/offlinemessagemodel.hpp
  ../include/server/model/user.hpp
  ../include/server/model/usermodel.hpp
+ ../include/server/redis/redis.hpp
  ../thirdparty/json.hpp
  /root/hzhdata/2025-bigproject/1-chat-group/src/server/chatserver.cpp
 src/server/CMakeFiles/Chatserver.dir/chatservice.cpp.o
@@ -23,6 +24,7 @@ src/server/CMakeFiles/Chatserver.dir/chatservice.cpp.o
  ../include/server/model/offlinemessagemodel.hpp
  ../include/server/model/user.hpp
  ../include/server/model/usermodel.hpp
+ ../include/server/redis/redis.hpp
  ../thirdparty/json.hpp
  /root/hzhdata/2025-bigproject/1-chat-group/src/server/chatservice.cpp
 src/server/CMakeFiles/Chatserver.dir/db/db.cpp.o
@@ -38,6 +40,7 @@ src/server/CMakeFiles/Chatserver.dir/main.cpp.o
  ../include/server/model/offlinemessagemodel.hpp
  ../include/server/model/user.hpp
  ../include/server/model/usermodel.hpp
+ ../include/server/redis/redis.hpp
  ../thirdparty/json.hpp
  /root/hzhdata/2025-bigproject/1-chat-group/src/server/main.cpp
 src/server/CMakeFiles/Chatserver.dir/model/friendmodel.cpp.o
@@ -61,3 +64,6 @@ src/server/CMakeFiles/Chatserver.dir/model/usermodel.cpp.o
  ../include/server/model/user.hpp
  ../include/server/model/usermodel.hpp
  /root/hzhdata/2025-bigproject/1-chat-group/src/server/model/usermodel.cpp
+src/server/CMakeFiles/Chatserver.dir/redis/redis.cpp.o
+ ../include/server/redis/redis.hpp
+ /root/hzhdata/2025-bigproject/1-chat-group/src/server/redis/redis.cpp

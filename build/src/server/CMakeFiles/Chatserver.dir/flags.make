@@ -6,5 +6,5 @@ CXX_FLAGS = -g -g
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/root/hzhdata/2025-bigproject/1-chat-group/include -I/root/hzhdata/2025-bigproject/1-chat-group/include/server -I/root/hzhdata/2025-bigproject/1-chat-group/thirdparty -I/root/hzhdata/2025-bigproject/1-chat-group/include/server/db -I/root/hzhdata/2025-bigproject/1-chat-group/include/server/model 
+CXX_INCLUDES = -I/root/hzhdata/2025-bigproject/1-chat-group/include -I/root/hzhdata/2025-bigproject/1-chat-group/include/server -I/root/hzhdata/2025-bigproject/1-chat-group/thirdparty -I/root/hzhdata/2025-bigproject/1-chat-group/include/server/db -I/root/hzhdata/2025-bigproject/1-chat-group/include/server/model -I/root/hzhdata/2025-bigproject/1-chat-group/include/server/redis 
 
