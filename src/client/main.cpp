@@ -87,9 +87,15 @@ int main(int argc, char **argv)
         cout << "========================================" << endl;
         cout << "please input your choice: ";
         int choice;
-        cin >> choice;
-        cin.get(); // 清空输入缓冲区
+        if (!(std::cin >> choice)) {  // 如果输入不是整数
+            std::cin.clear();  // 清除错误状态
+            std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');  // 丢弃整行
+            continue;  // 重新尝试输入
+        }
+        // cin.get(); // 读出 换行
+        cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');  // 丢弃剩余字符, 直到遇到换行（如换行符）
 
+        
         switch (choice)
         {
 
@@ -121,9 +127,18 @@ int main(int argc, char **argv)
             {
                 char buffer[1024] = {0};               // 接收服务器返回的数据
                 len = recv(clientfd, buffer, 1024, 0); // 接收数据
-                if (len < 0)
+
+                if (len < 0 || len == 0)
                 {
-                    cerr << "recv error" << endl;
+                    if (len == 0)
+                    {
+                        cout << "server quit!" << endl;
+                        return 0;
+                    }
+                    else
+                    {
+                        cerr << "recv error" << endl;
+                    }
                 }
                 else
                 {
@@ -333,8 +348,8 @@ int main(int argc, char **argv)
         default:
         {
             cout << "input error" << endl;
-            break;
         }
+        break;
         }
     }
 }
