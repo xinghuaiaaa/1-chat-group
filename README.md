@@ -1,4 +1,3 @@
-# 项目简介
 
 package 里面 缺少redis,  hiredis与nginx安装, 自行完成, 才能保证 项目是集群化部署
 
