@@ -7,3 +7,6 @@ redis.hpp 和 redis.cpp 这部分代码, 可以保存下来, 只要做 同步red
 ```
 bash auto_build.sh
 ```
+
+# 注意
+**一定要 开启 nginx服务 和 redis 服务**
