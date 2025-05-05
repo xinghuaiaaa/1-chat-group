@@ -1,0 +1,21 @@
+{"msgid":1,"id":22,"password":"101010"}
+{"msgid":3,"name":"hzh1","password":"101010"}
+{"msgid":1,"id":23,"password":"101010"}
+{"msgid":5,"id":22,"from":"hzh","to":23,"msg":"i am hzh!hello!"}
+{"msgid":5,"id":23,"from":"hzh1","to":22,"msg":"我不认识你!"}
+
+
+
+{"msgid":1,"id":22,"password":"101010"}
+{"msgid":5,"id":22,"from":"hzh","to":23,"msg":"i am hzh!hello!"}
+{"msgid":1,"id":23,"password":"101010"}
+
+{"msgid":1,"id":22,"password":"101010"}
+服务器:  ctrl+c
+
+{"msgid":1,"id":22,"password":"101010"}
+{"msgid":6,"id":22,"friendid":23}
+{"msgid":6,"id":22,"friendid":25}
+{"msgid":1,"id":22,"password":"101010"}
+
+{"msgid":1,"id":22,"password":""}
